@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjj13k44junq2"]
+
+[ext_resource type="Script" uid="uid://cxfpntqi2q2p5" path="res://scripts/main_menu.gd" id="1_l6cm7"]
+
+[node name="ButtonManager" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 8.0
+offset_bottom = 8.0
+script = ExtResource("1_l6cm7")
+
+[node name="Start" type="Button" parent="."]
+layout_mode = 0
+offset_left = 432.0
+offset_top = 114.0
+offset_right = 660.0
+offset_bottom = 180.0
+text = "Start
+"
+
+[node name="Exit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 406.0
+offset_top = 236.0
+offset_right = 700.0
+offset_bottom = 347.0
+text = "Exit"
+
+[node name="Credit" type="Label" parent="."]
+layout_mode = 0
+offset_left = 452.0
+offset_top = 446.0
+offset_right = 675.0
+offset_bottom = 469.0
+text = "@Diego Campos - Ultra, 2026"
